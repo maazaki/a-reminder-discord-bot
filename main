@@ -21,16 +21,18 @@ async def ping(ctx):
 
 target_channel_id = 618230847996166165
 
+#ok in the brakets below you can make it seconds,hours
+
 @tasks.loop(seconds=24)
 async def called_once_a_day():
     message_channel = bot.get_channel(target_channel_id)
     print(f"Got channel {message_channel}")
-    await message_channel.send("nigger")
+    await message_channel.send("sample text")
 
 @called_once_a_day.before_loop
 async def before():
     await bot.wait_until_ready()
-    print("Finished waiting")
+    print("DONE")
     
 #and of course the token    
 #don't forget this line
