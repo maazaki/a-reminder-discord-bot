@@ -1,1 +1,1 @@
-A simple bot that say cetin things in cetin time.
+A simple bot that say certain things in certain time.

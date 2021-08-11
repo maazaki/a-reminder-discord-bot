@@ -1,6 +1,5 @@
 import discord
 from discord.ext import commands,tasks
-import urllib.parse, urllib.request, re
 
 #use any prefix ig
 
